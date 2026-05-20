@@ -1,6 +1,6 @@
 # Lab 3: Maven Project, Checkstyle, and JSON file reading
 
-In today's lab, your group will be cleaning up and adding to a small program
+In today's lab, you are encouraged to work within a group to clean up and add to a small program
 which translates country names into different languages.
 
 **To get started, have one member of your group make a fork of this
@@ -171,7 +171,8 @@ There is an example of how to extract the various data provided in `JSONDemo.jav
 
 #### Understanding our data
 Open the `src/main/resources/sample.json` file. It contains the JSON data we'll be
-using for this program. It is like the small example we just saw, but contains more entries.
+using for this program. It is like the small example we just saw, but contains more entries. For a JSON file you could download from: https://stefangabos.github.io/world_countries/
+
 Each object will have exactly the same keys as listed below:
 - "id": an integer uniquely identifying each object
 - "alpha2": two character string country code (note: we won't use this key at all)
@@ -191,7 +192,7 @@ we actually display to the user of our program.
 - Open each of these files to check what kind of information they
 contain. Notice that each of the `.txt` files contains a header row at the top, which should be ignored when reading the data.
 - **Each member of your team should pick a random country and language code
-from `sample.json` and determine the corresponding country and langauge.**
+from `sample.json` and determine the corresponding country and language names.**
 
 - **For the language code you picked, complete the TODO in `JSONTranslationExample.java`.**
   - each group member should make a pull request with their completed code. 
