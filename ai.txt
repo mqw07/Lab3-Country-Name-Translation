@@ -1,0 +1,2 @@
+ChatGPT was used for understanding of java syntax. Claude Code was used in order to refactor existing solutions.
+All ideas and implementation of code and solutions were original.
